@@ -1,0 +1,462 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    color:white;
+    background: #000;
+    font-size: 18px;
+    border: #c4c4c4 SOLID ;
+    border-width: 3px;
+    
+}
+img{
+    background: #000;
+}
+h1{
+    font-family: Rajdhani;
+    font-size: 36px;
+}
+h2{
+    font-family: Rajdhani;
+    font-size: 20px; 
+}
+h3{
+    font-family: Space Grotesk;
+    font-size: 22px;
+    font-weight: regular;
+    text-align: center;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style: none;
+}
+ header{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin: 30px 150px;
+    text-align: center;
+}
+
+/* hover */
+
+
+.home:hover{
+    color: #ffff00;
+    text-decoration: underline #ffff00;
+}
+.arrow:hover{
+background-blend-mode: darken;
+}
+
+#introduction{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    padding: 0px 80px;
+
+}
+
+#first{
+    background:url(../Illustrations/Bathome1.png);
+    background-size: cover;
+    background-position: top center;
+    height:850px;
+    width: auto;
+    text-align: center;
+    padding-top: 25px;
+} 
+#first img{
+    background: transparent;
+}
+#first li{
+    font-size: 22px;
+    text-decoration: underline;
+}
+.left{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20%;
+}
+.left img{
+    width: fit-content;
+    align-self: center;
+    padding-top: 300px;
+    max-width: max-content;
+}
+.left p{
+    padding-top:240px;
+    padding-bottom:40Px;
+    margin-left:20%;
+    font-size: 20px;
+    width: 65%;
+    align-self: flex-end;
+    font-family: space Grotesk;
+    font-size: 18px;
+    font-weight: regular;
+    /* scale: 1.2; */
+}
+.left h2{
+    font-family: space Grotesk;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    /* scale: 1.2; */
+}
+.right{
+    position: fixed; 
+    top: 200px;
+    right: 80px;
+    width:min-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+.fleche{
+    width: 70px;
+}
+.reseaux{
+    width: 20px;
+    margin: 20px 20px;
+}
+.boutton_up button,.confirm{
+    background:linear-gradient(80deg,#eddebf69,#890009a4);
+    color: #ffff;
+    font-family: space Grotesk;
+    border: transparent;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 15px 40px;
+    margin: 0 15px;
+    box-shadow: #000 5px 5px 60px;
+}
+.boutton_up button:hover,.confirm:hover{
+    background:linear-gradient(80deg,#eddebf,#890009);
+}
+
+
+p{
+    font-family: Rajdhani;
+}
+
+
+/* cinema */
+
+#cinema .film{
+    padding-top: 150px;
+    /* padding: 150px ; */
+}
+
+.film p{
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 20PX;
+    padding-left: 24px;
+    font-family: rajdhani;
+    font-size: medium;
+}
+.film{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 150px;
+}
+.film h2,.film h1{
+    padding-left: 24px;
+}
+.triofilm{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: wrap;
+}
+.un:hover{
+    scale:1.08;
+}
+.pic{
+    z-index: 1;
+    width: 100px;
+    position:relative;
+    top:40px;
+    left:60px;
+    background: transparent;
+    
+}
+.NMS{
+    z-index: 1;
+}
+
+.friends{
+    padding-left: -10px;
+}
+
+
+/* back */
+.back img{
+    background-color: transparent;
+    margin: -11% 0% -11% 66.5%;
+    width: fit-content;
+    align-self: flex-end;
+}
+
+ /* justice league */
+ .JL p{
+    padding-right: 240px;
+    padding-top: 20px;
+    padding-bottom: 20PX;
+    padding-left: 170px;
+    font-family: Rajdhani;
+ }
+ .JL h1{
+    padding-top: 20px;
+    padding-bottom: 20PX;
+    padding-left: 170px;
+ }
+
+ /* multimedia */
+
+ .mtmd{
+    margin-left: 180px;
+ }
+ .trial{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 100px 100px 0px 100px;
+    /* width: fit-content; */
+
+ }
+ .trailer{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    width: 90%;
+    margin: 100px 300px 400px 300px;
+    background:linear-gradient(120deg,#eddebf6b,#19587d65);
+    border-radius: 20px;
+    border-color: transparent;
+    height: 230PX;
+    padding-bottom: 20px;
+    align-self: center;
+ }
+ .trailer:hover{
+    background:linear-gradient(120deg,#eddebf,#19587d);
+ }
+  .trailer:active{
+    background:linear-gradient(120deg,#eddebf,#19587d);
+ }
+ .ARCHE{
+    position: relative;
+    left:150px;
+    top: -140px;
+ }
+ .ARCHEE{
+    position: relative;
+    RIGHT:150px;
+    top: -140px;
+ }
+ .letter{
+    padding: 10px 15px;
+    width: 70%;
+    height: fit-content;
+    font-weight: normal;
+ }
+ .letter h3{
+    text-align: inherit;
+ }
+ .letter p{
+    font-size: 11px;
+    font-family: space Grotesk;
+    padding-bottom: 10px;
+
+ }
+ .letter span{
+    color: #fff00f;;
+ }
+ .trial img{
+    max-width:fit-content ;
+ }
+ .photo{
+    margin: -200PX 220px 0px 220px ;
+ }
+ 
+
+
+ /* LA formulaire */
+
+ .formulaire{
+    background:linear-gradient(80deg,#eddebf5e,#19587d60);
+    margin: 90px 0px 90px 0px;
+    align-self: center ;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    line-height: 40px;
+    width: fit-content;
+    font-family: space grotesk;
+ }
+.formulaire:hover{
+    background:linear-gradient(120deg,#eddebf,#19587d);
+ }
+ .formulaire:active{
+    background:linear-gradient(120deg,#eddebf,#19587d);
+
+ }
+
+
+ .formulaire h2{
+    text-align: center;
+ }
+ input,textarea,form span,.span{
+    border:none;
+    background-color: transparent;
+    border-bottom: solid black;
+    font-family: space grotesk;
+    width: fit-content;
+
+ }
+ .mail{
+    width: 90%;
+ }
+ .mail:active{
+    border:none;
+ }
+ .btn button{
+    border: 2px solid;
+    border-color:linear-gradient(135deg,#EDDEBf,#19587D) ;
+    background: transparent;
+    justify-content:space-between ;
+    align-items: center;
+ }
+ .pendy{
+    justify-content:space-around ; 
+    padding:8px 20px; 
+ }
+ .confirm,.herit{
+    border: inherit;
+    /* background: inherit; */
+
+ }
+ /* .confirm{
+    background:linear-gradient(135deg,#EDDEBf,#890008) 40%;
+    border: transparent;
+    font-size: 20px;
+    justify-content: center;
+    height:30px;
+    width: 160px;
+ } */
+
+ .confirm{
+    background:linear-gradient(80deg,#eddebf69,#890009a2);
+    box-shadow: #000 5px 5px 60px ;
+    color: #ffff;
+    font-family: space Grotesk;
+    border: transparent;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 15px 40px;
+    margin: 15px 200PX;
+ }
+
+
+
+
+ /* CITATION */
+ #citation{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 100px 250px;   
+    font-weight:400;
+ 
+ }
+ .cita{
+    font-family: space Grotesk;
+    font-size: 18px; 
+ }
+ #citation img{
+    width: min-content;
+ }
+
+ .photocitation{
+    align-self: flex-start;
+ }
+ .photocitation2{
+    position: relative;
+    top: -90px;
+    align-self: flex-end;
+ }
+ .author{
+    font-family: 6px;
+    color: grey;
+ }
+ .teboka{
+    display:flex;
+    flex-direction: row;
+    padding-left: 10px;
+    margin: 20px 500px;
+    color: transparent;
+
+    }
+.dot{
+    list-style-type: disc;
+
+ }
+ .teboka li{
+    list-style:circle;
+    list-style-image: url();
+ }
+
+ /* footer */
+
+ footer{
+    margin: 100px 300px;
+ }
+.foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    margin: 0 auto;
+    height: min-content;
+    width: fit-content;
+    font-size: 10px;
+}
+.foot img{
+    width: 25px;
+    height: fit-content;
+    margin-right: 10px;
+    margin-bottom: 20px;
+
+}
+.foot p{
+    margin-top: 10px;
+}
+.link a{
+    margin: 0 AUTO;
+    align-content: center;
+    justify-content: space-between;
+    padding-left: 25px;
+}
+.link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 200px;
+}
+.icon{
+    padding:0 10px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
