@@ -14,11 +14,11 @@
         <header>
             <nav>
                 <a href="home.html">
-                    <img src="Logos/logohome.png" alt="">
+                    <img src="Logos/logohome.png" alt="" class="logo">
                 </a>
             </nav>
             <ul>
-                <li><a href="home.html">
+                <li><a href="home.html" class="home">
                         <h1>HOME</h1>
                     </a></li>
             </ul>
@@ -34,8 +34,8 @@
                     <h2>Il est Batman.</h2>
                 </div>
                 <div class="boutton_up">
-                    <a href=""><button>VOIR LE HEROS</button></a>
-                    <a href=""><button>LES ADVERSAIRES</button></a>
+                    <a href="#cinema"><button>VOIR LE HEROS</button></a>
+                    <a href="#nemesis"><button>LES ADVERSAIRES</button></a>
                 </div>
                 <img src="Logos/flèche_down_header.png" alt="">
             </div>
@@ -55,7 +55,7 @@
         <section id="cinema">
             <div class="film">
                 <div>
-                    <h2>BATMAN AU CINÉMA</h2>
+                    <h1>BATMAN AU CINÉMA</h1>
                     <p>
                         Le personnage de Batman est un super héros de l’univers de DC Comics. Il a été créé par le
                         dessinateur Bob Kane et le scénariste Bill Finger et apparaît pour la première fois dans le
@@ -93,11 +93,11 @@
         </section>
 
         <!-- la section nemesis -->
-        <section>
+        <section id="nemesis">
             <div class="film">
                 <div>
                     <img src="Illustrations/Bathome13.png" alt="" class="pic">
-                    <h2 class="NMS">NÉMÉSIS</h2>
+                    <h1 class="NMS">NÉMÉSIS</h1>
                     <p>
                         Batman souhaite éradiquer la criminalité de Gotham. C’est pourquoi, il affrontera la plupart
                         du temps, des vilains sans capacités surnaturelles mais particulièrement violents ou
@@ -133,12 +133,14 @@
 
 
         </section>
-
+        <div class="back">
+            <img src="Illustrations/Bathome12.png" alt="">
+        </div>
         <!-- la section alliées -->
         <section>
             <div class="film">
                 <div>
-                    <h2>ALLIES</h2>
+                    <h1>ALLIES</h1>
                     <p class="friends">
                         Alfred est le majordome des Wayne. A leur mort il s’occupe de l’éducation du jeune Bruce
                         avant de l’assister dans son rôle du Batman. Ce dernier rencontrera Catwoman dès le
@@ -176,7 +178,7 @@
 
         <!-- la section justice league -->
         <section class="JL">
-            <h2>JUSTICE LEAGUE</h2>
+            <h1>JUSTICE LEAGUE</h1>
             <p>
                 Lorsque la Terre est menacée les plus grands super-héros s’allient pour la protéger. Ils
                 doivent cependant apprendre à se faire confiance mutuellement et à faire équipe ce qui ne
@@ -188,7 +190,7 @@
         </section>
         <!-- la section multimédia -->
         <section>
-            <h2 class="mtmd">MULTIMEDIA</h2>
+            <h1 class="mtmd">MULTIMEDIA</h1>
             <div>
                 <div class="trial">
                     <img src="Logos/icon_flèche_1.png" alt="" class="ARCHE">
@@ -249,41 +251,50 @@
 
         <!-- la section citation -->
         <section>
-            <div>
-                <div>
-                    <img src="Logos/icon_guillemets_1.png" alt="">
-                </div>
+            <div id="citation">
+                <img src="Logos/icon_guillemets_1.png" alt="" class="photocitation">
                 <div>
                     <div>
-                        <p>« La seule façon raisonnable de vivre en ce bas monde, c'est en dehors des règles. »</p>
-                    </div>
-                    <div>
-                        The Dark Knight : Le Chevalier Noir - Le Joker à Batman (2008)
+                        <p class="cita">« La seule façon raisonnable de vivre en ce bas monde, <br> c'est en dehors des règles. »</p> <br>
+                        <p class="author">The Dark Knight : Le Chevalier Noir - <br> Le Joker à Batman (2008)</p>
+                        <br> 
+                        <ul class="teboka">
+                            <li>.  </li>
+                            <li> . </li>
+                            <li>  .</li>
+                            <li>  .</li>
+                            <li class="dot"> . </li>
+                            <li>  . </li>
+                            <li> .  </li>
+                            <li>  . </li>
+                            <li>   .</li>
+                        </ul>
                     </div>
                 </div>
-                <div>
-                    <img src="Logos/icon_guillemets_2.png" alt="">
-                </div>
+                    <img src="Logos/icon_guillemets_2.png" alt=""class='photocitation2'>
             </div>
         </section>
 
     </main>
     <footer>
         <div>
-            <div>
+            <div class="foot">
                 <img src="Logos/icon_WB.png" alt="">
                 <p>Ce projet respecte l’univers cinématographique des films Batman récents. Version Nolan & Snyder &
                     Reeves</p>
             </div>
-            <div>
+            <div class="link">
                 <a href="#">
                     <img src="Logos/logo_sayna_white.png" alt="">
                     <img src="Logos/icon_x.png" alt="">
                     <img src="Logos/icon_DC.png" alt="">
                 </a>
-                <a href=""><img src="Logos/icon_facebook.png" alt=""></a>
-                <a href=""><img src="Logos/icon_ig.png" alt=""></a>
-                <a href=""><img src="Logos/icon_tw.png" alt=""></a>
+                <div class="icon">
+                <a href="" ><img src="Logos/icon_facebook.png" alt=""></a>
+                <a href=""  ><img src="Logos/icon_ig.png" alt=""></a>
+                <a href=""  ><img src="Logos/icon_tw.png" alt=""></a>
+
+                </div>
             </div>
         </div>
     </footer>
